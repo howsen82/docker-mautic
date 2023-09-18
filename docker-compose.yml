@@ -34,7 +34,7 @@ services:
     networks:
       - mauticnet
     ports:
-      - "8888:80"
+      - 8888:80
 
 networks:
   mauticnet:
